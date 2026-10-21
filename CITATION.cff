@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use splice-vus-deconv in your research, please cite our software and foundational deconvolution methodology."
+title: "splice-vus-deconv: Cell-Type-Resolved Non-Coding Splice Variant Prioritization with 1Mb Sashimi Tracks and Isoform PAE"
+version: 0.4.2
+date-released: 2026-11-10
+license: Apache-2.0
+repository-code: "https://github.com/schemalabs-dev/splice-vus-deconv"
+url: "https://schemalabs.co.uk/research"
+authors:
+  - family-names: "Nguyen"
+    given-names: "Hung"
+    email: "h.nguyen@schemalabs.co.uk"
+    affiliation: "Schema Labs Open Science Institute"
+    orcid: "https://orcid.org/0009-0008-4014-5753"
+references:
+  - type: article
+    title: "Fourteen years of cellular deconvolution: methodology, applications, technical evaluation and outstanding challenges"
+    authors:
+      - family-names: "Nguyen"
+        given-names: "Hung"
+    journal: "Nucleic Acids Research"
+    volume: 52
+    issue: 9
+    start: 4761
+    end: 4783
+    year: 2024
+    doi: "10.1093/nar/gkae267"
+  - type: article
+    title: "PINSPlus: a tool for tumor subtype discovery in integrated genomic data"
+    authors:
+      - family-names: "Nguyen"
+        given-names: "Hung"
+    journal: "Bioinformatics"
+    volume: 35
+    issue: 16
+    start: 2843
+    end: 2846
+    year: 2019
+    doi: "10.1093/bioinformatics/bty1049"

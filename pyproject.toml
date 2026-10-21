@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "splice-vus-deconv"
+version = "0.4.2"
+description = "Cell-type-resolved non-coding splice variant prioritization coupling 1Mb AlphaGenome Sashimi junction tracks, NNLS cellular deconvolution, and AlphaFold isoform PAE matrices."
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+authors = [
+  {name = "Hung Nguyen", email = "h.nguyen@schemalabs.co.uk"}
+]
+keywords = ["genomics", "splicing", "deconvolution", "alphagenome", "alphafold", "bioinformatics", "vus"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Bio-Informatics"
+]
+
+[project.urls]
+Homepage = "https://schemalabs.co.uk/research"
+Repository = "https://github.com/schemalabs-dev/splice-vus-deconv"
+Author = "https://orcid.org/0009-0008-4014-5753"
+
+[project.scripts]
+splice-vus-deconv = "splice_vus_deconv.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
